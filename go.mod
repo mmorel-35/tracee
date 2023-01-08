@@ -17,7 +17,7 @@ require (
 	github.com/open-policy-agent/opa v0.44.0
 	github.com/prometheus/client_golang v1.13.0
 	github.com/stretchr/testify v1.8.0
-	github.com/urfave/cli/v2 v2.3.0
+	github.com/urfave/cli/v2 v2.23.7
 	go.uber.org/zap v1.23.0
 	golang.org/x/sys v0.0.0-20220928140112-f11e5e49a4ec
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21
@@ -28,6 +28,8 @@ require (
 	inet.af/netaddr v0.0.0-20220811202034-502d2d690317
 	kernel.org/pub/linux/libs/security/libcap/cap v1.2.64
 )
+
+require github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
