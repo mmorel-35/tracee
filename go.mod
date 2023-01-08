@@ -10,7 +10,7 @@ require (
 	github.com/containerd/containerd v1.6.12
 	github.com/docker/docker v20.10.17+incompatible
 	github.com/golang/protobuf v1.5.2
-	github.com/google/cel-go v0.11.4
+	github.com/google/cel-go v0.13.0
 	github.com/google/gopacket v1.1.19
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/kubernetes/cri-api v0.0.0-00010101000000-000000000000
@@ -20,8 +20,8 @@ require (
 	github.com/urfave/cli/v2 v2.3.0
 	go.uber.org/zap v1.23.0
 	golang.org/x/sys v0.0.0-20220928140112-f11e5e49a4ec
-	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21
-	google.golang.org/grpc v1.49.0
+	google.golang.org/genproto v0.0.0-20221027153422-115e99e71e1c
+	google.golang.org/grpc v1.50.1
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools v2.2.0+incompatible
@@ -36,7 +36,7 @@ require (
 	github.com/Microsoft/hcsshim v0.9.5 // indirect
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
-	github.com/antlr/antlr4/runtime/Go/antlr v0.0.0-20220418222510-f25a4f6275ed // indirect
+	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/containerd/cgroups v1.0.3 // indirect
@@ -96,9 +96,9 @@ require (
 	go4.org/unsafe/assume-no-moving-gc v0.0.0-20220617031537-928513b29760 // indirect
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
 	golang.org/x/exp v0.0.0-20221002003631-540bb7301a08
-	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
+	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b // indirect
 	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.3.8 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	kernel.org/pub/linux/libs/security/libcap/psx v1.2.64 // indirect
 )
